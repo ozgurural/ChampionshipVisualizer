@@ -30,3 +30,16 @@ Visualizes sports championship data over time, creating bar charts and compiling
 - Execute in your Python environment:
   ```bash
   python script_name.py
+  ```
+
+  ### Output
+
+- **PNG charts**: Saved in the `charts/` directory.
+- **Video file**: `video.avi` generated in the current directory.
+
+## Key Functions
+
+- **`read_and_process_data(file_path)`**: Reads CSV and processes data.
+- **`prepare_team_colors(championship_data)`**: Assigns colors to teams.
+- **`create_chart_for_year(year, ...)`** and **`create_video()`**: Creates charts and compiles them into a video.
+
